@@ -44,17 +44,19 @@ img {
 
 .feliz-natal{
     font-family: 'Sevillana', cursive;
-    -webkit-text-stroke: 1px #fff;
     font-size: 100px;
+    -webkit-text-stroke: 1px #fff;
+
     color: gold;
     text-shadow: 0 0 100px;
-    animation: transition-color 1s ease-in-out infinite, flutuacao-lateral 10s ease-in-out infinite;
-   
+    animation: transition-color 1s ease-in-out infinite, flutuacao-lateral 10s ease-in-out infinite; 
 }
+
+
 
 @keyframes flutuacao-lateral {
     0%, 100%{
-        transform: translateX(0px, 0px);
+        transform: translate(0px, 0px);
     }
     50%{
         transform: translate(100px, 100px);
@@ -138,5 +140,6 @@ background: url(../imagens/snow.png);
         background-position: 60em 22em;
     }
     }
+
 
     
