@@ -28,8 +28,11 @@
     .cartao {
         width: 400px;
         margin:90px 10px 30px 10px;
-        background-color: beige;
         height: 200px;
+       }
+
+       .feliz-natal{
+        font-size: 70px;
        }
     }
 
@@ -45,7 +48,7 @@
    }
 
    .feliz-natal{
-    font-size: 70px;
+    font-size: 50px;
    }
  }
 
@@ -70,8 +73,11 @@
    
     .botoes .botao img {
     
-     max-width: 4px;
+     max-width: 6px;
      margin: 0;
-
  }
+
+ .feliz-natal{
+    font-size: 25px;
+   }
  }
