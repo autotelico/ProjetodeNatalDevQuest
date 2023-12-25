@@ -16,7 +16,7 @@
  } 
    .botoes .botao img {
     width: 80px;
-    max-width: 50px;
+    max-width: 80px;
 }
 
 .cartao {
@@ -27,57 +27,98 @@
 @media (max-width: 638px){
     .cartao {
         width: 400px;
-        margin:90px 10px 30px 10px;
+        margin:0px 10px 250px 10px;
         height: 200px;
        }
 
-       .feliz-natal{
-        font-size: 70px;
+       .botoes{
+        display: flex;
+        flex-wrap: wrap;
        }
+       @keyframes flutuacao-lateral {
+        0%, 100%{
+            transform: translate(0px, -100px);
+        }
+        50%{
+            transform: translate(100px, -20px);
+        }   
     }
+    .feliz-natal{
+        font-size: 70px;
+       } 
+    
+}
 
 
 @media (max-width: 520px){
+   @keyframes flutuacao-lateral {
+    0%, 100%{
+        transform: translate(0px, -150px);
+    }
+    50%{
+        transform: translate(70px, -100px);
+    }   
+}
+}
+
+@media (max-width: 415px){
+    .cartao {
+        width: 300px;
+        margin:0px 20px 350px 20px;
+       }  
+}
+
+
+   @media (max-width: 350px){
+    @keyframes flutuacao-lateral {
+     0%, 100%{
+         transform: translate(0px, -220px);
+     }
+     50%{
+         transform: translate(10px, -190px);
+     }   
+ }
    
-    .botoes .botao img {
-     max-width: 30px;
  }
 
- .cartao {
-    width: 300px;
-   }
-
-   .feliz-natal{
+ @media (max-width: 300px){
+    @keyframes flutuacao-lateral {
+     0%, 100%{
+         transform: translate(0px, -250px);
+     }
+     50%{
+         transform: translate(10px, -210px);
+     }   
+ }
+ .feliz-natal{
     font-size: 50px;
    }
- }
+}
 
-@media (max-width: 350px){
-   
-    .botoes .botao img {
-    
-     max-width: 15px;
-     gap: 1px
- }
-
- .cartao {
-    width: 160px;
-   }
-
-   .feliz-natal{
-    font-size: 45px;
-   }
- }
-
- @media (max-width: 280px){
-   
-    .botoes .botao img {
-    
-     max-width: 6px;
-     margin: 0;
+@media (max-width: 280px){
+    @keyframes flutuacao-lateral {
+     0%, 100%{
+         transform: translate(0px, -200px);
+     }
+     50%{
+         transform: translate(20px, -185px);
+     }   
  }
 
  .feliz-natal{
-    font-size: 25px;
+    font-size: 40px;
    }
- }
+
+
+}
+
+@media (max-width: 200px){
+    .feliz-natal{
+      display: none;  
+}
+
+.cartao {
+    display: none;
+}
+}
+
