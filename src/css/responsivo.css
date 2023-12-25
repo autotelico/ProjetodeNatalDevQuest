@@ -1,0 +1,77 @@
+
+@media (max-width: 1025px){
+.botoes .botao {
+    margin: 10px; 
+}
+
+.botoes{
+    gap: 1%;
+}
+}
+
+@media (max-width: 900px){
+   
+   .botoes .botao img {
+    max-width: 50px;
+ } 
+   .botoes .botao img {
+    width: 80px;
+    max-width: 50px;
+}
+
+.cartao {
+    margin:30px 70px 30px 70px;
+   }
+}
+
+@media (max-width: 638px){
+    .cartao {
+        width: 400px;
+        margin:90px 10px 30px 10px;
+        background-color: beige;
+        height: 200px;
+       }
+    }
+
+
+@media (max-width: 520px){
+   
+    .botoes .botao img {
+     max-width: 30px;
+ }
+
+ .cartao {
+    width: 300px;
+   }
+
+   .feliz-natal{
+    font-size: 70px;
+   }
+ }
+
+@media (max-width: 350px){
+   
+    .botoes .botao img {
+    
+     max-width: 15px;
+     gap: 1px
+ }
+
+ .cartao {
+    width: 160px;
+   }
+
+   .feliz-natal{
+    font-size: 45px;
+   }
+ }
+
+ @media (max-width: 280px){
+   
+    .botoes .botao img {
+    
+     max-width: 4px;
+     margin: 0;
+
+ }
+ }
