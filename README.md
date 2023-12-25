@@ -22,7 +22,7 @@ O desafio proposto era criar um design de natal, e uma mensagem escrita por cada
 
 * HTML
 * CSS
-* JS
+* JAVASCRIPT
 
 
 ## Resultado
