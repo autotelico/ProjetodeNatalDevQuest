@@ -6,7 +6,7 @@
 <li><a href="#sobre">Sobre</a></li>
 <li><a href="#status">Objetivo</a></li>
 <li><a href="#objetivo">Tecnologias</a></li>
-<li><a href="#curiosidade">Resultado</a></li>
+<li><a href="#resultado">Resultado</a></li>
 </ul>
 
 ## Sobre
