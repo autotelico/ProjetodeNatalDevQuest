@@ -14,7 +14,7 @@ Este projeto foi criado em conjunto com os alunos do curso DevQuest como forma d
 
 ## Objetivo
 
-O desafio proposto era criar um design de natal, e uma mensagem escrita por cada participante do projeto, onde com um simples clique seria possível navegar entre as mensagens escolhidas por cada participante. Também foi adicionado animações que deram uma incrível vibe de natal no projeto.
+O desafio proposto era criar um design de natal, e uma mensagem escrita por cada participante do projeto. Na parte inferior da página, foram criados botões referentes ás mensagens de cada aluno participante, sendo possível navegar entre as mensagens ao clicar em cada botão. Também foram adicionados animações que deram uma incrível vibe de natal ao projeto.
 
 
 
